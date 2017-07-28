@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>CAA</title>
+    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+
+    
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+<fieldset>
+
+<!-- Form 
+Name -->
+<legend style="font-size:16px;text-align:center;border-bottom:2px solid;"><span style="font-size:28px;">BIRDSTRIKE OCCURRENCE REPORT</span> <BR>
+To be completedon discovering evidence that a birdstrice has, or may have,occurred<br>
+To be completed for all birdstrikes,whether or not damage has been caused.
+<br>
+When completed,please send to: Civil Aviation Authority of Kosovo(CAAK)<br>
+Ahmet Krasniqi Street n.n(Arberi)<br>
+10000,Prishtina,Kosovo
+E-mail:mor@caa-ks.org<br>
+Fax: +381 (0)38 211 009,Mob: +377(0)44613 567
+</legend>
+
+<!-- Text input-->
+ <div class="form-group" ><fieldset style="text-align: center">
+                        <label class="col-md-4 control-label">Are you concered about the confidencial of this report and with to be contacted before it is processed? If so, please ensure you provide us with your contact details/
+                          Confidential
+                        </label>
+                        <br>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="hosting" value="yes" /> Yes
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="hosting" value="no" /> No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Aircraft Operator</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-briefcase"></i></span>
+  <input   placeholder="Aircraft Operator" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Aircraft Make or Model</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-circle-arrow-right"></i></span>
+  <input name="Aircraft Make or Model" placeholder="Aircraft Make or Model" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+       <div class="form-group">
+  <label class="col-md-4 control-label">Call Sign Arrival or Departure</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+  <input name="text" placeholder="Call Sign Arrival or Departure" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Aircraft Registration</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+  <input type="date" placeholder="Aircraft Registration" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Local time of Occurrence</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+  <input type="time" placeholder="Local time of Occurrence" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Aerodrome</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-plane"></i></span>
+  <input  placeholder="Aerodrome" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Runway in Usa </label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-hand-right"></i></span>
+  <input  placeholder="Runway in Usa " class="form-control" type="text">
+    </div>
+  </div>
+</div>
+<!-- Text input-->
+       
+
+
+<!-- Text input-->
+
+
+<!-- Text input-->
+ 
+<div class="form-group">
+  <label class="col-md-4 control-label">Location if en Route</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="address" placeholder="Location if en Route: " class="form-control"  type="address">
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Heigh</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-chevron-right"></i></span>
+  <input name="varchar" placeholder="Heigh" class="form-control" type="number">
+    </div>
+  </div>
+</div>
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Speed</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-check"></i></span>
+  <input name="number" placeholder="Speed" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+<div class="form-group"> 
+  <label class="col-md-4 control-label">Phase of Flight</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="Phase of Flight" class="form-control selectpicker" >
+      <option value=" " >Please select Phase of Flight</option>
+      <option>Parked</option>
+      <option>Taxi</option>
+      <option >Take-off Run</option>
+      <option >Climb</option>
+      <option >En Route</option>
+      <option >Descent</option>
+      <option >Approach</option>
+      <option >Landing Roll</option>
+      
+    </select>
+  </div>
+</div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Part(s)  of Aircraft struck or Damaged</label> <br></br>
+  <label class="col-md-4 control-label">Radome</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Windshield</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Nose</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2">Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Engine No.1</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Engine No.2</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Engine No.3</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Engine No.4</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Propeller</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Wing or Rotor</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Fuselage</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Landing Gear</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Tail</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Lights</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Other</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Struck
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Damaged
+</label>
+
+   </div>
+
+</div>
+
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Effect on Flight</label>  
+   <div class="col-md-4 inputGroupContainer">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">None</span>
+<br>
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Aborted Take-Off</span>
+<br>
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Precautionary  Landing</span>
+<br>
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Engines Shut Down </span>
+  <span class="custom-control-description">Other </span>
+
+</div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Sky Condition</label> 
+   <label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> No Cloud
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Some Cloud
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Other
+</label>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Precipitation</label> 
+   <label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> None
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Fog
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Rain
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Other
+</label>
+</div>
+<!-- Text input-->
+     <div class="form-group">
+  <label class="col-md-4 control-label">Bird Species</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-tree-conifer"></i></span>
+  <input name="text" placeholder="Call Sign Arrival or Departure" class="form-control"  type="text">
+    </div>
+  </div>
+     </div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Part(s)  of Aircraft struck or Damaged</label> <br></br>
+  <label class="col-md-4 control-label">1</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Seen
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Struck
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  
+  <label class="col-md-4 control-label">2 - 10</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Seen
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Struck
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+ 
+  <label class="col-md-4 control-label">11 - 100</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Seen
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Struck
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+ 
+  <label class="col-md-4 control-label">more than 100</label>  
+   <div class="col-md-4 inputGroupContainer">
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Seen
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Struck
+</label>
+
+   </div>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Size of Bird</label> 
+   <label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Small
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Medium
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Large
+</label>
+
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Pilot Warned of Birds</label> 
+   <label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+</label>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Remarks</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-question-sign"></i></span>
+        	<textarea class="form-control"  placeholder="Remarks Description"></textarea>
+  </div>
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Aircraft time out of service</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-ok-circle"></i></span>
+  <input type="varchar" placeholder="Aircraft time out of service" class="form-control" type="varchar">
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Estimated cost of repairs or replacement </label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-euro"></i></span>
+  <input type="number" placeholder="Estimated cost of repairs or replacement " class="form-control" type="number">
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Estimated other costs</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-euro"></i></span>
+  <input type="number" placeholder="Estimated other costs" class="form-control" type="number">
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Name and title of person making report </label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input type="text" placeholder="Name and title of person making report " class="form-control" type="text">
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Signature/Date</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+  <input name="date" placeholder="Signature/Date" class="form-control" type="date">
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Address and tel.no-</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="varchar" placeholder=".Address and tel.no-" class="form-control" type="varchar">
+    </div>
+  </div>
+</div>
+  
+
+
+<!-- Success message -->
+<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>
+    </div><!-- /.container -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
